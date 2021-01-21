@@ -1,3 +1,4 @@
+
 import React, { useContext, useState } from "react";
 import { useQuery } from "@apollo/client";
 import { Grid, Transition } from "semantic-ui-react";
@@ -27,5 +28,6 @@ function Home() {
     </Grid>
   );
 }
+
 
 export default Home;

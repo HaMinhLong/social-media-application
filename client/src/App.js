@@ -5,12 +5,15 @@ import "./App.css";
 
 import { Container } from "semantic-ui-react";
 
+
 import { AuthProvider } from "./context/auth";
+
 
 import MenuBar from "./components/MenuBar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+
 
 import AuthRoute from "./util/AuthRoute";
 
@@ -27,6 +30,7 @@ function App() {
           </Container>
         </Router>
       </AuthProvider>
+
     </div>
   );
 }
